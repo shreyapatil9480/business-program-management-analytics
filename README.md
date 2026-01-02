@@ -1,3 +1,7 @@
+[![Python CI](https://github.com/shreyapatil9480/business-program-management-analytics/actions/workflows/python-ci.yml/badge.svg)](https://github.com/shreyapatil9480/business-program-management-analytics/actions/workflows/python-ci.yml)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC)
+
 # Business Program Management Analytics
 
 Which shifts meet throughput SLA?
@@ -23,6 +27,14 @@ jupyter notebook notebooks/01_exploration.ipynb
 ```
 
 
+
+## Testing
+
+```bash
+pip install -r requirements.txt
+pytest tests/ --cov=src
+```
+
 ## Next Steps
 
 Automate SQL exports into a weekly stakeholder report.
@@ -31,3 +43,10 @@ Automate SQL exports into a weekly stakeholder report.
 *Analytics portfolio project — 2025-08*
 
 <!-- build 6 -->
+
+### Implemented
+
+```bash
+pip install -r requirements.txt
+python scripts/weekly_report.py
+```
